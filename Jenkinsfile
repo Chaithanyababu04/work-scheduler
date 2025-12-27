@@ -3,8 +3,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git 'https://github.com/Chaithanyababu04/work-scheduler'
-            }
+                Checkout scm
         }
         stage('Build'){
             steps{
