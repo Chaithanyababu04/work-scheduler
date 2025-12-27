@@ -5,6 +5,7 @@ pipeline{
             steps{
                 Checkout scm
         }
+        }
         stage('Build'){
             steps{
                 sh 'docker build -t html-app:latest .'
