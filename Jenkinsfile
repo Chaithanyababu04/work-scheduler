@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         
-        }
+        
         stage('Build'){
             steps{
                 sh 'docker build -t html-app:latest .'
@@ -16,5 +16,6 @@ pipeline{
                 '''
             }
         }
+    }
         
     }
