@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PATH = "/opt/homebrew/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-        IMAGE_NAME = "chaithanyababu/html-app"
+        IMAGE_NAME = "chaitanya010104/html-app"
         IMAGE_TAG  = "latest"
     }
 
