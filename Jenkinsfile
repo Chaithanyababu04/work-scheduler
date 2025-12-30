@@ -49,5 +49,12 @@ pipeline {
                 '''
                         }
         }
+        stage('Deploy ingress'){
+            steps {
+                sh'''
+                kubectl apply -f ingress.yaml
+                '''
+                        }
+        }
     }
 }
