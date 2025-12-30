@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh '''
                 docker rm -f html-container || true
-                docker run -d -p 8080:80 --name html-container $IMAGE_NAME:$IMAGE_TAG
+                docker run -d -p 9090:80 --name html-container $IMAGE_NAME:$IMAGE_TAG
                 '''
             }
         }
